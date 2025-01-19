@@ -49,4 +49,17 @@ fn main() {
 
 <br>
 
+#### ⏱ Tests
+ - test_sha256_files_hash
+
+
+<br>
+
+#### Notes
+use ``` sha256sum filename ``` on linux to verify / update test hash!
+
+
+
+<br>
+
 [Back](index.md "index.md")
