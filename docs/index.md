@@ -23,6 +23,10 @@ dnlibs = { git = "https://github.com/dedestem/dnlibs" }
 
 [time](time.md "time.md")
 
+#### Parsers
+
+[toml](toml.md "toml.md")
+
 ### ------------------------------------------------------
 
 [Back](../readme.md "../readme.md")

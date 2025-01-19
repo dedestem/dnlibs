@@ -13,6 +13,12 @@
 <br>
 
 ### Examples
+```rust
+use dnlibs::time;
+//+++
+```
+
+
 #### Is leap year
 ```rust
 time::is_leap_year(2010);
