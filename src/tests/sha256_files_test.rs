@@ -12,7 +12,7 @@ mod sha256_files_tests {
         let hashhex: String = hash.iter().map(|&byte| format!("{:02x}", byte)).collect();
 
         let expected_hash = "bd3ecbe5a84be0c10e63169bbb90dc1cac3750e7bf2df9ba908b707dff15c35e";
-        
+
         // Compare with expected hash
         assert_eq!(hashhex, expected_hash, "SHA-256 hash mismatch");
     }
