@@ -4,7 +4,7 @@ mod sha256_files_tests {
 
     #[test]
     fn test_sha256_files_hash() {
-        let path = "readme.md";
+        let path = "Readme.md";
 
         let hash = sha256_files::hash_sha256_file(path).expect("Failed to compute SHA-256 hash");
 
