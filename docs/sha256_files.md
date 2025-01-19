@@ -14,11 +14,9 @@
 <br>
 
 ### Example
-
-> [!WARNING]  
-> Example lib paths incorrect! (Example created in lib itself!)
-
 ``` rust
+use dnlibs::sha256_files::sha256file;
+
 fn main() {
     let path = "example.txt";
 
@@ -41,3 +39,7 @@ fn main() {
 
 ### Use case(s)
  - Filehash
+
+<br>
+
+[Back](index.md "index.md")
