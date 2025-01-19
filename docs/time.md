@@ -63,8 +63,8 @@ Result: ```Current date and time: 2025-01-12 13:28:46```
 <br>
 
 #### ⏱ Tests
- - Non
-
+ - test_leapyear_true
+ - test_leapyear_false
 
 
 <br>
