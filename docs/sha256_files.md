@@ -13,14 +13,21 @@
 
 <br>
 
+### 🦀 STD's
+
+ - [fs](https://doc.rust-lang.org/std/fs/ "https://doc.rust-lang.org/std/fs/")
+ - [io](https://doc.rust-lang.org/stable/std/io/ "https://doc.rust-lang.org/stable/std/io/")
+
+<br>
+
 ### Example
 ``` rust
-use dnlibs::sha256_files::sha256file;
+use dnlibs::sha256_files::hash_sha256_file;
 
 fn main() {
     let path = "example.txt";
 
-    match sha256file(path) {
+    match hash_sha256_file(path) {
         Ok(hash) => {
             println!("SHA-256 hash of {}:", path);
             for byte in hash {

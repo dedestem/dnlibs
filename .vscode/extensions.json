@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+      "saeris.markdown-github-alerts",
+      "bierner.markdown-preview-github-styles",
+      "rust-lang.rust-analyzer",
+      "tamasfe.even-better-toml",
+      "aaron-bond.better-comments"
+    ]
+  }
+  
